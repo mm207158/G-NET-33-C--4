@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Text;
+using System.Threading.Channels;
 
 namespace G_NET_33_C__4
 {
@@ -49,6 +50,84 @@ namespace G_NET_33_C__4
             //Console.WriteLine($"time of String  :{watch01.ElapsedMilliseconds}");//61 ms 
             //Console.WriteLine($"time of StringBuider :{watch02.ElapsedMilliseconds}");//7 ms
 
+
+            #endregion
+
+            #region Q2
+
+            /*
+             Question 02: Ticket Pricing System  
+                 Write a program for a cinema ticket pricing system with these rules: 
+                 Condition Price 
+                 Age < 5  Free 
+                 Age 5 - 12 30 LE 
+                 Age 13 - 59 50 LE 
+                 Age 60+ 25 LE 
+                 Weekend (Fri/Sat) 
+                 Add 10 EGP to any non-free ticket 
+                 Student with valid ID 20% discount (applied after weekend 
+                 surcharge) 
+                 Tasks: 
+                 (a) Implement using if-else if-else statements 
+                 (b) The program should ask for: age, day of week (1-7, where 
+                 6=Fri, 7=Sat), and whether they have a student ID (yes/no) 
+                 (c) Display the final price with a breakdown of how it was 
+                 calculated
+             */
+            //=======Answer ===========
+            //Console.WriteLine("Please Enter Age");
+            //int age = int.Parse(Console.ReadLine()!);
+            //Console.WriteLine("number of day");
+            //int day = int.Parse(Console.ReadLine()!);
+            //Console.WriteLine("Do you Have Student ID");
+            //string input = Console.ReadLine()!;
+            //bool haveStudentID = input.ToLower() == "yes";
+            //double price;
+            //if (age<5)
+            //{
+            //    Console.WriteLine("your price is Free");
+            //}
+            //else if (age>=5&& age<=12)
+            //{
+            //    price = 30;
+
+            //    if (day==6||day==7)
+            //    {
+            //        price = price + 10;
+            //    }
+
+            //    if (haveStudentID)
+            //    {
+            //        price = price - (price *0.2);
+            //    }
+            //    Console.WriteLine($"Your price is : {price}");
+            //}
+            //else if (age >= 13 && age <= 59)
+            //{
+            //    price = 50;
+
+            //    if (day == 6 || day == 7)
+            //    {
+            //        price = price + 10;
+                    
+            //    }
+            //    if (haveStudentID )
+            //    {
+            //        price = price - (price * 0.2);
+            //    }
+            //    Console.WriteLine($"Your price is : {price}");
+            //}
+            //else if (age>=60)
+            //{
+            //    price = 25;
+
+            //    if (day == 6 || day == 7)
+            //    {
+            //        price = price + 10;
+            //    }
+            //    Console.WriteLine($"Your price is : {price}");
+
+            //}
 
             #endregion
         }
