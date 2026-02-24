@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Globalization;
 using System.Text;
 using System.Threading.Channels;
 
@@ -109,7 +110,7 @@ namespace G_NET_33_C__4
             //    if (day == 6 || day == 7)
             //    {
             //        price = price + 10;
-                    
+
             //    }
             //    if (haveStudentID )
             //    {
@@ -129,6 +130,35 @@ namespace G_NET_33_C__4
 
             //}
 
+            #endregion
+
+            #region Q3 
+            #region  Traditional switch
+            //Console.WriteLine("Please Enter File Extension");
+            //string fileExtension = Console.ReadLine()!;
+            //string fileType;
+            //switch (fileExtension.ToLower())
+            //{
+            //    case ".pdf":
+            //        fileType = "Pdf Document";
+            //        break;
+            //    case ".docx":
+            //        fileType = "Word Document";
+            //        break;
+            //    case ".xlsx":
+            //        fileType = "Excel SpreadSheet ";
+            //        break;
+            //    case ".jpg":
+            //        fileType = "Image File";
+            //        break;
+            //    default:
+            //        fileType = "Unknown file";
+            //        break;   
+
+
+            //}
+            //Console.WriteLine(fileType);
+            #endregion
             #endregion
         }
     }
