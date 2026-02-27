@@ -211,7 +211,7 @@ namespace G_NET_33_C__4
             //    }
 
             //    attempts++;
-                
+
             //}
             //while (attempts <= 5);
             //if (attempts > 5)
@@ -224,6 +224,90 @@ namespace G_NET_33_C__4
 
             #endregion
 
+            #region Q6
+            //int[] scores = { 85, 42, 91, 67, 55, 78, 39, 88, 72, 95, 60, 48 };
+            //int sum=0;
+            //int avg;
+            //int countA = 0;
+            //int countB = 0;
+            //int countC = 0;
+            //int countD = 0;
+            //int countF = 0;
+
+            //Console.WriteLine(" Q (A)==========");
+
+            
+            //foreach (int score in scores)
+            //{
+            //    if (score<50)
+            //    {
+            //        Console.WriteLine(score); 
+            //    }
+            //}
+
+            //Console.WriteLine(" Q (B)==========");
+            //foreach (var score in scores)
+            //{
+            //    if (score>90)
+            //    {
+            //        Console.WriteLine(score); 
+            //        break;
+            //    }
+            //}
+
+            //Console.WriteLine(" Q (c)==========");
+            //int i;
+            //for ( i = 0; i < scores.Length; i++)
+            //{
+            //    if (scores[i]>40)
+            //    {
+            //        sum += scores[i];
+            //    }
+            //    else
+            //        Console.WriteLine($"student of score {scores[i]} is Absent");
+               
+            //}
+            
+            //avg = sum / i;
+            //Console.WriteLine($"Average is {avg} ");
+
+            //Console.WriteLine(" Q (c)==========");
+
+            //foreach (var score in scores)
+            //{
+            //    if (score>=90 && score<=100)
+            //    {
+            //        countA++;
+
+            //    }
+            //    else if (score>=80&& score<90)
+            //    {
+            //        countB++;
+
+            //    }
+            //    else if (score>=70&& score<80)
+            //    {
+            //        countC++;
+
+            //    }
+            //    else if (score>=60&& score<70)
+            //    {
+            //        countD++;
+
+            //    }
+            //    else
+            //    {
+            //        countF++;   
+            //    }
+
+            //}
+            //Console.WriteLine($"A : {countA}");
+            //Console.WriteLine($"B : {countB}");
+            //Console.WriteLine($"C : {countC}");
+            //Console.WriteLine($"D : {countD}");
+            //Console.WriteLine($"F : {countF}");
+
+            #endregion
 
 
 
