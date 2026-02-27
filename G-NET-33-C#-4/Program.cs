@@ -160,6 +160,18 @@ namespace G_NET_33_C__4
             //Console.WriteLine(fileType);
             #endregion
             #endregion
+
+            #region Q4
+            //Console.WriteLine("Please Enter Temprature");
+            //int temp =int.Parse(Console.ReadLine()!);
+            //string WeatherAdvice = temp < 0 ? "Freezing! Stay indoors." : temp < 15 ? "Cold. Wear a jacket." : temp < 25 ? "Pleasant weather" : temp < 35 ? "Warm. Stay hydrated." : "Hot! Avoid sun exposure.";
+            //Console.WriteLine(WeatherAdvice);
+
+            // this not readle and prefere to use if/else if 
+            #endregion
+
+
+
         }
     }
 }
