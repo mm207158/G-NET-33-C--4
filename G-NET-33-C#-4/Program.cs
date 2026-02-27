@@ -170,6 +170,57 @@ namespace G_NET_33_C__4
             // this not readle and prefere to use if/else if 
             #endregion
 
+            #region Q5
+
+            
+            string password;
+            int attempts=0;
+            bool isValid = true;
+           
+
+            do
+            {
+                Console.WriteLine("Enter Valid Password ");
+                password = Console.ReadLine()!;
+
+                if (password.Length < 8)
+                {
+                    Console.WriteLine("● Minimum 8 characters ");
+                    isValid = false;
+                }
+                     if (!password.Any(char.IsUpper))
+                {
+                    isValid = false;
+                    Console.WriteLine("● At least one uppercase letter  ");
+                }
+                     if (!password.Any(char.IsDigit))
+                {
+                    isValid = false;
+                    Console.WriteLine("At least one digit ");
+                }
+                   if (password.Any(char.IsWhiteSpace))
+
+                {
+                    isValid = false;
+                    Console.WriteLine("No spaces allowed ");
+
+                }
+                if (isValid)
+                {
+                    Console.WriteLine("Password Accepted");
+                }
+
+                attempts++;
+            }
+            while (attempts >5);
+            if (attempts>5)
+            {
+                Console.WriteLine("Account Locked !");
+            }
+            
+           
+            #endregion
+
 
 
         }
