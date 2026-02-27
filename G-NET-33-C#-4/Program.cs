@@ -172,11 +172,11 @@ namespace G_NET_33_C__4
 
             #region Q5
 
-            
+
             //string password;
-            //int attempts=0;
+            //int attempts = 0;
             //bool isValid = true;
-           
+
 
             //do
             //{
@@ -188,17 +188,17 @@ namespace G_NET_33_C__4
             //        Console.WriteLine("● Minimum 8 characters ");
             //        isValid = false;
             //    }
-            //         if (!password.Any(char.IsUpper))
+            //    if (!password.Any(char.IsUpper))
             //    {
             //        isValid = false;
             //        Console.WriteLine("● At least one uppercase letter  ");
             //    }
-            //         if (!password.Any(char.IsDigit))
+            //    if (!password.Any(char.IsDigit))
             //    {
             //        isValid = false;
             //        Console.WriteLine("At least one digit ");
             //    }
-            //       if (password.Any(char.IsWhiteSpace))
+            //    if (password.Any(char.IsWhiteSpace))
 
             //    {
             //        isValid = false;
@@ -211,15 +211,19 @@ namespace G_NET_33_C__4
             //    }
 
             //    attempts++;
+                
             //}
-            //while (attempts >5);
-            //if (attempts>5)
+            //while (attempts <= 5);
+            //if (attempts > 5)
+
             //{
+            //    Console.WriteLine("===========================");
             //    Console.WriteLine("Account Locked !");
             //}
-            
-           
+
+
             #endregion
+
 
 
 
